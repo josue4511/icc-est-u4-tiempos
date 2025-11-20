@@ -5,6 +5,24 @@ import models.Results;
 
 public class App {
     public static void main(String[] args) {
+        /*
+         * long inicio = System.nanoTime();
+         * for (int i = 0; i < 100000; i++) {
+         * String s = "Numero: " + i;
+         * System.out.println(s);
+         * }
+         * 
+         * long fin = System.nanoTime();
+         * 
+         * long tiempoNano = fin - inicio;
+         * double tiempoSeg = tiempoNano / 1_000_000_000.0;
+         * System.out.println("Tiempo transcurrido: " + tiempoNano + " nanos");
+         * System.out.println("Tiempo transcurrido: " + tiempoSeg + " segundos");
+         * 
+         * Results result = new Results(1, "Imprimir 100000 numeros", (int) tiempoSeg);
+         * 
+         * System.out.println(result.toString());
+         */
 
         int[] originalArray = generate(50000);
 
